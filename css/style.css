@@ -1,0 +1,157 @@
+/* RESET BÁSICO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #333;
+  background-color: #f9f9f9;
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* HERO / HEADER */
+.hero {
+  background: linear-gradient(to right, #0077b6, #0096c7);
+  color: #fff;
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.logo {
+  width: 160px;
+  margin-bottom: 20px;
+}
+
+.subtitle {
+  font-size: 1.3rem;
+  margin-bottom: 20px;
+}
+
+.btn-primary {
+  background: #ffdd59;
+  color: #333;
+  padding: 12px 25px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.btn-primary:hover {
+  background: #ffd700;
+}
+
+/* SECCIÓN QUIENES */
+#quienes ul {
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+#quienes li {
+  margin-bottom: 8px;
+}
+
+/* PLANES */
+.planes {
+  background: #fff;
+  padding: 60px 20px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  margin-top: 30px;
+}
+
+.card {
+  background: #f0f4f8;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  color: #0077b6;
+  margin-bottom: 10px;
+}
+
+.card .price {
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+/* CONTACTO */
+.contacto {
+  background: #f9f9f9;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.contact-buttons {
+  margin: 20px 0;
+}
+
+.contact-buttons a {
+  display: inline-block;
+  margin: 10px;
+  padding: 12px 20px;
+  border-radius: 5px;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.btn-whatsapp {
+  background-color: #25D366;
+  color: #fff;
+}
+
+.btn-email {
+  background-color: #333;
+  color: #fff;
+}
+
+/* FORMULARIO */
+.contact-form {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  align-items: center;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  max-width: 500px;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  font-family: inherit;
+}
+
+/* FOOTER */
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 20px 0;
+  margin-top: 60px;
+}
